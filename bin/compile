@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir>
+
+echo "-----> change to BUILD_DIR."
+cd $1
+
+echo "-----> extract data/zip to /data."
+jar xf data.zip
